@@ -1167,7 +1167,576 @@ body{
 
 /* RESPONSIVE MEDIA QUERIES */
 
-@media (max-width: 1852px){
+@media (max-width:1852px){
+
+    .cont-s-limpieza{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .s-limpieza{
+        display: flex;
+        align-items: center;
+        width: 1000px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .img-limpieza{
+        margin-top: 50px;
+        width: 600px;
+        margin: 0;
+    }
+}
+
+@media (max-width:1733px){
+
+    .cont-s-seguridad{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .s-seguridad{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 1000px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:1666px){
+    /* INICIO */
+    .cont-h1-ofrecer h1{
+        font-size: 110px;
+    }
+
+    .ubicados-h1{
+        font-size: 110px;
+    }
+    /* NOSOTROS */
+    .s-nosotros{
+        width: 1200px;
+    }
+}
+
+@media (max-width: 1333px){
+    /* INICIO */
+    .main-sagrada{
+        height: 450px;
+    }
+    
+    .h1-txt-logo{
+        font-size: 120px;
+    }
+
+    .ubicados-draw-1{
+        display: none;
+    }
+
+    .ubicados-draw-2{
+        display: none;
+    }
+
+    .text-ofrecer{
+        width: 1100px;
+        text-align: center;
+    }
+
+    .cont-h1-ofrecer h1{
+        font-size: 89px;
+    }
+    /* NOSOTROS */
+    .s-nosotros{
+        width: 1000px;
+    }
+
+    .h1-nosotros{
+        text-align: center;
+    }
+    /* GALERIA */
+    .cont-galeria{
+        grid-template-areas: 
+    "img1 img2"
+    "img1 img3"
+    "img4 img5"
+    "img6 img7"
+    ;
+    }
+}
+
+@media (max-width: 1089px){
+    /* INICIO */
+    .main-sagrada{
+        height: 300px;
+    }
+
+    .h1-txt-logo{
+        font-size: 80px;
+        top:20%;
+    }
+    
+    .s-seguridad{
+        width: 600px;
+    }
+
+    .s-limpieza{
+        width: 600px;
+    }
+
+    .fondo-ofrecer{
+        height: 200px;
+    }
+    
+    .cont-h1-ofrecer h1{
+        font-size: 70px;
+    }
+
+    .text-ofrecer{
+        width: 600px;
+    }
+
+    .fondo-h1-ubicados{
+        height: 200px;
+    }
+
+    .ubicados-h1{
+        font-size: 60px;
+    }
+
+    .p-ubicados{
+        width: 800px;
+        text-align: center;
+    }
+    /* NOSOTROS */
+    .cont-nosotros-img h1{
+        text-align: center;
+        margin: 0;
+        width: 1060px;
+    }
+    .s-nosotros{
+        width: 600px;
+    }
+    .h1-nosotros2{
+        font-size: 89px;
+    }
+    /* GALERIA */
+    .cont-galeria{
+        grid-template-areas: 
+    "img1"
+    "img1"
+    "img2"
+    "img3"
+    "img4"
+    "img5"
+    "img6"
+    "img7"
+    ;
+    }
+    /* CONTACTO */
+
+    .h1-encabezado-contacto-fondo{
+        margin: 0;
+        text-align: center;
+    }
+
+    .h1-encabezado-contacto{
+        margin: 0;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .formulario{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .fondo-img-contacto{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    /* INICIO */
+    .cont-h1-ofrecer h1{
+        font-size: 60px;
+    }
+
+    .ubicados-h1{
+        font-size: 50px;
+    }
+
+    .p-ubicados{
+        width: 600px;
+    }
+
+    .caja-3-ofrecer{
+        margin-top:20px ;
+    }
+    /* PREGUNTAS FRECUENTES */
+    .h1-encabezado-faq{
+        font-size: 50px;
+        margin: 0;
+        text-align: center;
+    }
+    /* CONTACTO */
+    .cont-form{
+        margin: 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 760px){
+    /* INICIO */
+    .fondo-ofrecer{
+        height: 150px;
+    }
+
+    .cont-h1-ofrecer h1{
+        font-size: 52px;
+    }
+    /* GALERIA */
+    .cont-galeria-h1{
+        height: 300px;
+    }
+    .galeria-h1{
+        font-size: 120px;
+    }
+    /* CONTACTO */
+    .encabezado-contacto{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .h1-encabezado-contacto{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 674px){
+    /* INICIO */
+    .h1-txt-logo{
+        font-size: 60px;
+    }
+
+    .main-sagrada{
+        margin-bottom: 40px;
+    }
+
+    .s-seguridad{
+        width: 450px;
+    }
+
+    .s-h1{
+        font-size: 60px;
+    }
+
+    .s-limpieza{
+        width: 450px;
+    }
+
+    .l-h1{
+        font-size: 60px;
+    }
+
+    .img-limpieza{
+        width: 450px;
+    }
+
+    .caja-2-ofrecer{
+        margin-top: 20px;
+    }
+
+    .logo-footer{
+        width: 600px;
+    }
+    /* NOSOTROS */
+    .cont-nosotros-img h1{
+        font-size: 70px;
+    }
+    
+    .h1-nosotros2{
+        font-size: 60PX;
+    }
+
+    .s-nosotros{
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .cont-h1-ofrecer h1{
+        font-size: 40px;
+    }
+    
+    .text-ofrecer{
+        width: 450px;
+    }
+
+    .text-ofrecer p{
+        font-size: 32px;
+    }
+
+    .fondo-h1-ubicados{
+        height: 150px;
+    }
+
+    .ubicados-h1{
+        font-size: 40px;
+    }
+
+    .p-ubicados{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 30px;
+    }
+
+    .p-ubicados-despedida{
+        font-size: 40px;
+    }
+
+    .logo-footer{
+        width: 400px;
+    }
+    /* CONTACTO */
+    .formulario{
+        margin: 0;
+    }
+    .cont-form{
+        margin: 0;
+    }
+}
+
+@media (max-width: 520px){
+    /* INICIO */
+    .main-sagrada{
+        height: 200px;
+    }
+
+    .h1-txt-logo{
+        font-size: 40px;
+        top: 14%;
+    }
+
+    .s-img-seguridad{
+        width: 332px;
+    }
+
+    .img-limpieza{
+        width: 332px;
+    }
+
+    .fondo-ofrecer{
+        height: 100px;
+    }
+
+    .cont-h1-ofrecer h1{
+        font-size: 32px;
+    }
+
+    .mapa-iframe{
+        width: 400px;
+        height: 400px;
+    }
+    /* GALERIA */
+    .cont-galeria-h1{
+        height: 220px;
+    }
+    .galeria-h1{
+        font-size: 72px;
+    }
+
+    /* CONTACTO */
+    .h1-encabezado-contacto{
+        font-size: 42px;
+    }
+
+    .formulario{
+        margin-top: 20px;
+        width: 380PX;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 468px){
+
+    .s-seguridad{
+        width: 350px;
+    }
+
+    .s-limpieza{
+        width: 350px;
+    }
+
+    .text-ofrecer{
+        width: 400px;
+    }
+}
+
+@media (max-width: 438px){
+    /* INICIO */
+    .cont-dudas p{
+        font-size: 17px;
+    }
+
+    .cont-h1-ofrecer h1{
+        font-size: 20px;
+    }
+
+    .text-ofrecer{
+        width: 350px;
+    }
+
+    .p-ubicados{
+        width: 200px;
+    }
+
+    .mapa-iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+    .cont-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-footer{
+        width: 300px;
+    }
+
+    .footer-item2{
+        width: 150px;
+    }
+
+    .h1-footer{
+        width: 50px;
+    }
+
+    .footer-item3{
+        margin-top: 20px;
+        width: 150px;
+    }
+    /* NOSOTROS */
+    .cont-nosotros-img h1{
+        font-size: 50px;
+    }
+    .s-nosotros{
+        width: 300px;
+    }
+
+    .h1-nosotros{
+        font-size: 50px;
+    }
+
+    .p-nosotros{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .h1-nosotros2{
+        font-size: 40px;
+    }
+    /* CONTACTO */
+    .encabezado-contacto{
+        height: 200px;
+    }
+    .h1-encabezado-contacto{
+        font-size: 32px;
+    }
+
+    .formulario{
+        margin-top: 20px;
+        width: 380PX;
+        padding: 5px;
+    }
+
+    .formulario h1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 366px){
+    
+    .s-seguridad{
+        width: 250px;
+    }
+
+    .s-p{
+        font-size: 25px;
+    }
+
+    .s-img-seguridad{
+        width: 250px;
+    }
+
+    .s-h1{
+        font-size: 40px;
+    }
+
+    .s-limpieza{
+        width: 250px;
+    }
+
+    .l-h1{
+        font-size: 40px;
+    }
+
+    .l-p{
+        font-size: 25px;
+    }
+
+    .img-limpieza{
+        width: 250px;
+    }
+
+    .text-ofrecer{
+        width: 250px;
+    }
+
+    .caja-1-ofrecer{
+        width: 309px;
+    }
+
+    .caja-2-ofrecer{
+        width: 346px;
+    }
+
+    .caja-3-ofrecer{
+        width: 340px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* POR SI LO ARRUINO CON LAS NUEVAS MEDIAS QUERIES */
+/* @media (max-width: 1852px){
     .s-limpieza{
         width: 900px;
     }
@@ -1556,32 +2125,9 @@ body{
     .cont-ubicados h1{
         font-size: 38px;
     }
-
-    /* .s-nosotros{
-        margin: 0;
-        width: 600px;
-    }
-
-    .cont-nosotros-img h1{
-        font-size: 60px;
-    }
-
-    .h1-nosotros2{
-        font-size: 50px;
-    } */
-
-    /* .cont-galeria img{
-        width: 750px;
-    } */
-
-
 }
 
 @media (max-width:757px){
-
-    /* .navbar{
-        width: 760px;
-    } */
 
     .encabezado-contacto{
         width: 810px;
@@ -1597,34 +2143,9 @@ body{
         width: 810px;
     }
 
-
-    /* .cont-footer{
-        width: 760px;
-    } */
-
-    /* .copy-footer{
-        width: 760px;
-    } */
-
-    /* .fondo-ofrecer{
-        width: 760px;
-    } */
-
     .ubicados-h1{
         font-size: 50px;
     }
-
-    /* .fondo-h1-ubicados{
-        width: 760px;
-    } */
-
-    /* .cont-ofrecer{
-        width: 760px;
-    } */
-
-    /* .cont-caja-ofrecer{
-        width: 760px;
-    } */
 
     .cont-s-limpieza{
         width: 760px;
@@ -1640,18 +2161,9 @@ body{
         margin: 0;
     }
 
-    /* .cont-dudas{
-        width: 760px;
-    } */
-
 }
 
 @media (max-width: 552px){
-
-    /* .navbar{
-        width: 760px;
-    } */
-
     .cont-ubicados h1{
         font-size: 25px;
     }
@@ -1703,10 +2215,6 @@ body{
         width: 98%;
     }
 
-    /* .cont-nosotros-img{
-        width: 760px;
-    } */
-
     .cont-nosotros{
         width: 840px;
         margin: 0;
@@ -1744,15 +2252,6 @@ body{
         width: 614px;
     }
 
-    /* .cont-s-seguridad{
-        width: 755px;
-        margin: 0;
-    } */
-
-    /* .cont-s-limpieza{
-        width: 755px;
-        margin: 0;
-    } */
     .cont-h1-ofrecer h1{
         font-size: 44px;
     }
@@ -1807,16 +2306,6 @@ body{
 }
 
 @media (max-width:375px){
-
-    /* .navbar {
-        width: 760px;
-    } */
-
-    /* .main-sagrada{
-        width: 760px;
-        height: 400px;
-    } */
-
     .fondo-main{
         width: 700px;
     }
@@ -1859,20 +2348,6 @@ body{
         align-self: center;
         margin: 0;
     }
-
-    /* .fondo-ofrecer{
-        width: 760px;
-        background-position: center;
-        background-position: top;
-    } */
-
-    /* .cont-ofrecer{
-        width: 760px;
-    } */
-
-    /* .cont-caja-ofrecer{
-        width: 760px;
-    } */
 
     .cont-footer{
         width: 652px;
@@ -1968,5 +2443,4 @@ body{
         width: 820px;
     }
 
-
-}
+} */
