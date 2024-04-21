@@ -1349,11 +1349,9 @@ body{
         font-size: 60px;
         text-align: center;
     }
-
-    .formulario{
-        justify-content: center;
-        align-items: center;
-        margin: 0;
+    
+    .cont-form{
+        justify-content: start;
     }
 
     .fondo-img-contacto{
@@ -1385,10 +1383,16 @@ body{
         text-align: center;
     }
     /* CONTACTO */
+
     .cont-form{
-        margin: 0;
         justify-content: center;
+        margin: 0;
     }
+
+    .formulario{
+        margin-left: 0;
+    }
+
 }
 
 @media (max-width: 760px){
@@ -1414,6 +1418,21 @@ body{
     }
     .h1-encabezado-contacto{
         font-size: 40px;
+    }
+    .formulario{
+        width: 525px;
+    }
+
+    .formulario h1{
+        font-size: 50px;
+    }
+
+    .formulario textarea{
+        width: 400px;
+    }
+
+    .form-check label{
+        width: 350px;
     }
 }
 
@@ -1505,13 +1524,7 @@ body{
     .logo-footer{
         width: 400px;
     }
-    /* CONTACTO */
-    .formulario{
-        margin: 0;
-    }
-    .cont-form{
-        margin: 0;
-    }
+
 }
 
 @media (max-width: 520px){
@@ -1559,14 +1572,24 @@ body{
     }
 
     .formulario{
-        margin-top: 20px;
-        width: 380PX;
-        padding: 10px;
+        width: 450px;
+    }
+
+    .formulario h1{
+        font-size: 50px;
+    }
+
+    .formulario textarea{
+        width: 300px;
+    }
+
+    .form-check label{
+        width: 300px;
     }
 }
 
 @media (max-width: 468px){
-
+    /* INICIO */
     .s-seguridad{
         width: 350px;
     }
@@ -1577,6 +1600,26 @@ body{
 
     .text-ofrecer{
         width: 400px;
+    }
+    /* CONTACTO */
+    .formulario{
+        width: 400px;
+    }
+
+    .formulario h1{
+        font-size: 40px;
+    }
+
+    .formulario textarea{
+        width: 280px;
+    }
+
+    .form-check label{
+        width: 280px;
+    }
+
+    .formulario .btn-form{
+        width: 300px;
     }
 }
 
@@ -1655,13 +1698,26 @@ body{
     }
 
     .formulario{
-        margin-top: 20px;
-        width: 380PX;
-        padding: 5px;
+        width: 350px;
+        height: 800px;
+        padding: 17px;
     }
 
     .formulario h1{
-        font-size: 25px;
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .formulario textarea{
+        width: 280px;
+    }
+
+    .form-check label{
+        width: 220px;
+    }
+
+    .formulario .btn-form{
+        width: 300px;
     }
 }
 
