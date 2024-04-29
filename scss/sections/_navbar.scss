@@ -1,0 +1,49 @@
+.navbar{
+    background-color: $c_sagrada;
+    padding: 0;
+}
+
+.navbar-nav{
+    .nav-link.active{
+        color: $c_blanco;
+    }
+} 
+
+.navbar-nav{
+    align-items: center;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    flex-direction: row-reverse;
+    margin-right: 40px;
+}
+
+.navbar-toggler:focus{
+    border-color: $c_sagrada;
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon{
+    background-image: url('../resources/icon-menu-hamburguesa.png');
+}
+
+.nav-link{
+    color: $c_blanco;
+    font-size: 25px;
+    margin: 8px;
+}
+
+.nav-link:hover{
+    color: #cfcece;
+}
+
+.img-logo-nav{
+    width: 160px;
+    margin-left: 40px;
+    transition: ease-in-out 0.3s;
+}
+
+.img-logo-nav:hover{
+    transform: scale(1.06);
+}

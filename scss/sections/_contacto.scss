@@ -1,0 +1,157 @@
+/* FORMULARIO-CONTACTO.HTML */
+.background-contacto{
+    background: radial-gradient(circle at 60% 40%, $c_sagrada 25%, transparent 26%), radial-gradient(circle at 40% 60%, rgb(0, 0, 110) 25%, transparent 26%);
+    background-size: 8em 8em;
+    background-color: #00004f;
+    opacity: 1;
+}
+
+.encabezado-contacto{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.514)), url('https://cdn.discordapp.com/attachments/1228542950636781569/1232762148741189692/rawpixel-com-lifeofpix-rawpixelcom1624-307582.jpg?ex=662fe8b7&is=662e9737&hm=53ad388b1323318ca123edcd134a33804b44382072f5523246ebe81d554e68cd&');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.form-check{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 5px;
+    align-self: start;
+    justify-self: center;
+    margin-left: 12px;
+}
+
+.form-check label{
+    width: 450px;
+    font-weight: 360;
+}
+
+.form-check-input[type=checkbox]{
+    border: solid 1px #0000004e;
+    cursor: pointer;
+}
+
+.h1-encabezado-contacto-fondo{
+    background-color: #0c00adc2;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.h1-encabezado-contacto{
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: $c_blanco;
+}
+
+.cont-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formulario{
+    position: relative;
+    background-color: $c_blanco;
+    width: 700px;
+    height: 1000px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 60px;
+    border-right: solid 1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+.fondo-img-contacto{
+    position: relative;
+    display: flex;
+    background-color: $c_blanco;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+    height: auto;
+    z-index: -1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    right: 17px;
+}
+
+.img-contacto{
+    position: absolute;
+    align-self: center;
+    width: 650px;
+    height: auto;
+    right: -50px;
+}
+
+.formulario h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 40px;
+    // text-transform: uppercase;
+    border-bottom:solid 2px ;
+}
+
+.formulario textarea{
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    resize: none;
+}
+
+.formulario input{
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 8px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: #272727 solid 1px;
+    border-radius: 0px;
+}
+
+.formulario p{
+    position: relative;
+    top: 2%;
+    font-family: "League Spartan", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    align-self: flex-start;
+    margin-left: 9px;
+    /* border-bottom: double 1.4px; */
+}
+
+.formulario .btn-form{
+    cursor: pointer;
+    background-color: #dddddd;
+    border-radius: 10px;
+    width: 400px;
+    transition: ease-in 0.2s;
+}
+
+.btn-form:hover{
+    background-color: #2113e3;
+    color: $c_blanco;
+}
+
+.formulario textarea:focus, input:focus{
+    border-bottom: solid 2px;
+    border-color: #0a009a;
+}

@@ -1,0 +1,151 @@
+/* INICIO NOSOTROS.HTML */
+
+.fondo-nosotros{
+    /* FONDO PATTERN SACADO DE GOOGLE PRUEBA */
+    background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient($c_blanco 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    $c_blanco;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+.cont-nosotros-img{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.421), rgba(0, 0, 0, 0.54)), url('https://cdn.discordapp.com/attachments/1228542950636781569/1228543061466812426/banner-nosotros.jpg?ex=662c6ce3&is=6619f7e3&hm=1710c28638ae000a3a73315466065a6abcb242639642ee839e6c4ab457540b35&');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 480px;
+}
+
+.cont-nosotros-img h1{
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 100px;
+    background-color: #2113e3bf;
+    width: 900px;
+    padding: 15px;
+    color: aliceblue;
+    margin-left: 45px;
+}
+
+.nosotros-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.cont-nosotros{
+    /* border: solid 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    transition: ease 0.3s;
+    flex-wrap: wrap;
+}
+
+.s-nosotros{
+    background-color: rgb(255, 255, 255);
+    border: solid 1px;
+    border-radius: 10px;
+    width: 1600px;
+    padding: 10px;
+    box-shadow: 10px 8px 6px 5px rgba(33, 33, 33, 0.907);
+    overflow: hidden;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.s-nosotros:hover {
+    transform: scale(1.01);
+}
+
+.h1-nosotros{
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+    font-size: 69px;
+    text-align: start;
+    color: #000000;
+}
+
+.p-nosotros{
+    font-family: "League Spartan", sans-serif;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.cont-nosotros2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* border: 2px solid; */
+    flex-wrap: wrap;
+}
+
+.cont-nst-h1{
+    height: auto;
+    overflow-x: hidden;
+    background-color: #000746;
+    border: 2px solid rgb(0, 0, 0);
+    text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.769);
+}
+
+.h1-nosotros2{
+    color: $c_blanco;
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 110px;
+    text-align: center;
+    margin-top: 17px;
+    padding: 40px;
+}
+
+.h1-caja{
+    font-family: "League Spartan", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.caja-nosotros{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 370px;
+    height: 400px;
+    border: solid 2px;
+    border-radius: 10px;
+    box-shadow: 6px 5px 4px 5px rgba(33, 33, 33, 0.907);
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.caja-nosotros:hover{
+    transform: scale(1.04);
+    background-color: $c_blanco;
+}
+
+.p-cajas{
+    font-family: "League Spartan", sans-serif;
+    font-size: 26px;
+    font-weight: 450;
+    padding: 12px;
+    text-align: center;
+}

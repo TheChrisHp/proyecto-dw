@@ -1,0 +1,71 @@
+/* INICIO FOOTER */
+.cont-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00054d;
+    color: $c_blanco;
+    padding: 40px 0;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-item2{
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-footer{
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.icon-foot-text {
+    font-family: "League Spartan", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: start;
+    text-decoration: none;
+    color: $c_blanco;
+}
+
+.icons-footer{
+    width: 22px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle; /*por lo visto centra el icono con el texto*/
+}
+
+.footer-item3{
+    /* border: solid 2px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-footer{
+    width: 300px;
+    height: auto;
+}
+
+.copy-footer {
+    background-color: #000441;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    margin: 0;
+
+}
+
+.p-copy-footer {
+    color: $c_blanco;
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}

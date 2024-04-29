@@ -1,0 +1,471 @@
+body{
+    background-color: $c_blanco;
+    font-family: "League Spartan",sans-serif !important;
+}
+
+.background-index{
+    /* background: linear-gradient($c_blanco, $c_blanco); */
+    background: url('https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg');
+}
+
+.main-sagrada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: solid 2px; */
+    overflow: hidden;
+}
+
+.h1-txt-logo{
+    position: absolute;
+    inset: 0;
+    top: 30%;
+    color: $c_blanco;
+    font-family: "League Spartan";
+    font-weight: bold;
+    font-size: 160px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.769);
+    z-index: 1;
+}
+
+.carousel-item{
+    height: 600px;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+
+.img-carru{
+    width: 1910px;
+    height: auto;
+}
+
+/* INICIO SECTION (SEGURIDAD)*/
+.cont-s-seguridad{
+    display: flex;
+    align-items: center;
+    padding: 17px;
+    flex-wrap: wrap;
+    /* border: solid 2px; */
+}
+
+.s-seguridad{
+    align-items: center;
+    background-color: aliceblue;
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    box-shadow: 0px 2px 6px 4px rgba(78, 78, 78, 0.255);
+    transition: ease-in 0.3s;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.s-seguridad:hover{
+    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.743);
+    border-radius: 12px;
+    background-color: rgb(227, 239, 250);
+}
+
+.s-h1{
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    font-size: 89px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    padding: 17px;
+
+}
+
+.s-p{
+    font-family: "League Spartan", sans-serif;
+    font-size: 32px;
+    padding: 17px;
+}
+
+.s-img-seguridad{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    /* margin-right: 64px; */
+    box-shadow: 12px 6px 6px 5px rgba(78, 78, 78, 0.465);
+}
+
+/* INICIO SECTION (LIMPIEZA)*/
+.cont-s-limpieza{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    padding: 17px;
+    flex-wrap: wrap;
+
+}
+
+.s-limpieza{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin-right: 64px;
+    width: 1190px;
+    height: auto;
+    box-shadow: 0px 2px 6px 4px rgba(78, 78, 78, 0.255);
+    transition: ease-in 0.3s;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.s-limpieza:hover{
+    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.743);
+    border-radius: 12px;
+    background-color: rgb(255, 249, 247);
+}
+
+.l-h1{
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    font-size: 89px;
+    text-transform: uppercase;
+    /* margin-bottom: 32px; */
+    padding: 17px;
+    text-align: end;
+}
+
+.l-p{
+    font-family: "League Spartan", sans-serif;
+    font-size: 32px;
+    padding: 17px;
+    /* text-align: end; */
+}
+
+.img-limpieza{
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 64px;
+    width: 500px;
+    box-shadow: 12px 6px 6px 5px rgba(78, 78, 78, 0.465);
+}
+
+/* CONTINUACION DEBAJO PARA 2DA ENTREGA DEL INDEX.HTML */
+
+.cont-h1-ofrecer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.cont-h1-ofrecer h1{
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $c_blanco;
+    font-family: "League Spartan", sans-serif;
+    font-size: 140px;
+    text-transform: uppercase;
+    text-shadow: 12px 10px 5px rgb(0, 0, 0);
+}
+
+.fondo-ofrecer{
+    /* border: solid 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url('../resources/fondo-index2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    height: 300px;
+}
+
+.cont-ofrecer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient($c_blanco, $c_blanco);
+}
+
+.text-ofrecer{
+    background-color: #170da3;
+    color: $c_blanco;
+    margin: 10px 0px;
+    border: solid 2px #000;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 42px;
+    width: 1500px;
+    margin-bottom: 80px;
+    margin-top: 70px;
+    box-shadow: 6px 4px 4px #000;
+}
+
+.cont-caja-ofrecer{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: $c_blanco;
+    // border: solid 2px;
+
+    svg{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+
+.h1-cajas{
+    font-weight: bold;
+    font-size: 52px;
+    text-align: center;
+    margin: 0px 0px 30px;
+}
+
+@mixin cajas($wid, $hei){
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: "League Spartan", sans-serif;
+    font-size: 22px;
+    border: solid 2px;
+    border-radius: 6px;
+    width: $wid;
+    height: $hei;
+    padding: 5px;
+    box-shadow: 4px 2px 1px #000;
+    overflow: hidden;
+    transition: ease-in 0.4s;
+    z-index: 1;
+}
+
+.caja-1-ofrecer{
+    background-color: $c_blanco;
+    background-image:url('../resources/cabezal-panel.svg');
+    @include cajas(340px, 650px);
+}
+
+.caja-1-ofrecer:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 20px 6px #5d5da97f;
+}
+
+.caja-1-ofrecer h1, .caja-2-ofrecer h1, .caja-3-ofrecer h1{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: $c_blanco;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.941);
+}
+
+.cont-caja-p-beneficio{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    /* border-top: solid 1px; */
+    margin: 0;
+}
+
+.p-cajas-beneficio{
+    font-family: "League Spartan", sans-serif;
+    font-size: 19px;
+    /* border: solid 2px; */
+    margin: 0;
+   /* padding: 10px; */
+}
+
+.tick-p-row{
+    /* border: solid 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.tick-img{
+    width: 24px;
+    height: auto;
+}
+
+.caja-1-ofrecer strong, .caja-2-ofrecer strong, .caja-3-ofrecer strong{
+    font-size: 24px;
+}
+
+.caja-2-ofrecer{
+    background-color: $c_blanco;
+    background-image: url('../resources/cabezal-panel.svg');
+    @include cajas(350px, 650px);
+}
+
+.caja-2-ofrecer:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 20px 6px #0000877f;
+}
+
+
+.caja-3-ofrecer{
+    margin-top: -1.6%;
+    background-color: $c_blanco;
+    background-image: url('../resources/cabezal-panel-sagrada.svg');
+    background-size: contain;
+    @include cajas(360px, 710px);
+}
+
+.caja-3-ofrecer:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 44px 6px #ff9100;
+}
+
+.boton-cajas{
+    font-family: "League Spartan", sans-serif;
+    font-size: 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #2113e3;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    color: $c_blanco;
+    border: solid 1px #000;
+    transition: 0.3s;
+    margin: 0;
+}
+
+.boton-cajas:hover{
+    background-color: #2b21b6;
+}
+
+.boton-cajas-sagrada{
+    font-family: "League Spartan", sans-serif;
+    font-size: 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #ff6310;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    color: $c_blanco;
+    border: solid 1px #000;
+    transition: 0.3s;
+}
+
+.boton-cajas-sagrada:hover{
+    background-color: #ff772d;
+}
+
+.cont-ubicados{
+    /* margin-top: 180px; */
+    /* border: solid 12px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ubicados-draw-1{
+    /* border: solid 2px; */
+    position: absolute;
+    left: 1%;
+    width: 650px;
+}
+
+.ubicados-draw-2{
+    /* border: solid 2px; */
+    position: absolute;
+    right: 2%;
+    width: 560px;
+}
+.fondo-h1-ubicados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.421), rgba(0, 0, 0, 0.54)), url('https://cdn.discordapp.com/attachments/1228542950636781569/1229852676141879489/map-4152197_1920.jpg?ex=6631308f&is=661ebb8f&hm=314d10cca084e81455c5c4cc1451566aa5fd445d7a67c215304ea3f2ce71b3f8&');
+    background-size: cover;
+    background-position: left;
+    height: 350px;
+    width: 100%;
+}
+
+.ubicados-h1{
+    display: flex;
+    color: white;
+    background-color: #2b21b6d7;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    /* width: 900px; */
+    align-items: center;
+    padding: 10px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.p-ubicados-despedida{
+    background-color: #1300bb;
+    border-radius: 12px;
+    padding: 12px;
+    color: $c_blanco;
+    font-family: "League Spartan", sans-serif;
+    font-size: 60px;
+}
+
+.p-ubicados{
+    font-family: "League Spartan", sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    background-color: #1300bb;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.mapa-iframe{
+    margin-top: 2%;
+    width: 500px;
+    border-radius: 100%;
+    transition: 1s ease-in;
+    z-index: 1;
+}
+
+.mapa-iframe:hover{
+    transition: 0.5s ease-in-out;
+    border-radius: 20%;
+}
+
+.cont-dudas{
+    /* border: solid 2px; */
+    background-color: $c_blanco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* margin-top: 32px; */
+}
+
+.cont-dudas p{
+    font-family: "League Spartan", sans-serif;
+    font-size: 24px;
+    border-bottom: solid 2px;
+}
+
+.a-dudas{
+    font-weight: 500;
+    text-decoration: none;
+}
