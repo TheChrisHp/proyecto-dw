@@ -1,0 +1,21 @@
+@mixin cajas($wid, $hei){
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: "League Spartan", sans-serif;
+    font-size: 22px;
+    border: solid 2px;
+    border-radius: 6px;
+    width: $wid;
+    height: $hei;
+    padding: 5px;
+    box-shadow: 4px 2px 1px #000;
+    overflow: hidden;
+    transition: ease-in 0.4s;
+    z-index: 1;
+}
+

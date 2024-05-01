@@ -11,7 +11,7 @@
 }
 
 .h1-encabezado-faq{
-    background-color: #2113e3d5;
+    background-color: $c_fondo-t;
     font-family: "League Spartan", sans-serif;
     font-weight: bold;
     font-size: 89px;
@@ -29,85 +29,85 @@
     background: radial-gradient(circle at 60% 40%, rgb(0, 0, 127) 25%, transparent 26%), radial-gradient(circle at 40% 60%, rgb(0, 0, 110) 25%, transparent 26%);
     background-size: 8em 8em;
     background-color: #00004f;
-    opacity: 1
-}
+    opacity: 1;
 
-.s-faq{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background-color: aliceblue;
-    border: solid 2px;
-    border-radius: 10px;
-    width: 1000px;
-    height: auto;
-    padding: 20px;
-    box-shadow: 6px 4px 6px #000;
-    transition: ease-in 0.3s;
-    overflow: hidden;
-}
+    .s-faq{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        border: solid 2px;
+        border-radius: 10px;
+        width: 1000px;
+        height: auto;
+        padding: 20px;
+        box-shadow: 6px 4px 6px #000;
+        transition: ease-in 0.3s;
+        overflow: hidden;
 
-.cont-pie-fondo-faq-p{
-    align-self: center;
-    width: 580px;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    border-bottom: solid 1px;
-}
+        .accordion-item{
+            font-weight: 550;
+            font-size: 20px;
+        }
+        
+        .accordion-button{
+            font-size: 24px;
+        }
+        
+        .accordion-button:not(.collapsed){
+            color: #000000;
+            background-color: #2113e368;
+        }
+        
+        .gif-conv{
+            position: absolute;
+            /* border: solid 2px; */
+            align-self: self-end;
+            width: 100px;
+            height: auto;
+        }
+        
+        .s-faq:hover{
+            transform: scale(1.004);
+        }
+        
+        .faq-h1{
+            font-family: "League Spartan", sans-serif;
+            font-weight: bold;
+            font-size: 72px;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 10px;
+        }
+        
+        .faq-h3{
+            font-family: "League Spartan", sans-serif;
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+        
+        .faq-p{
+            font-family: "League Spartan", sans-serif;
+            font-size: 22px;
+        }
+    }
 
-.pie-fondo-faq-p{
-    margin: 0;
-}
+    .cont-pie-fondo-faq-p{
+        align-self: center;
+        width: 580px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        border-bottom: solid 1px;
+    }
 
-.pie-fondo-faq-p a{
-    text-decoration: none;
-    font-weight: 500;
-}
+    .pie-fondo-faq-p{
+        margin: 0;
 
-.accordion-item{
-    font-weight: 550;
-    font-size: 20px;
-}
-
-.accordion-button{
-    font-size: 24px;
-}
-
-.accordion-button:not(.collapsed){
-    color: #000000;
-    background-color: #2113e368;
-}
-
-.gif-conv{
-    position: absolute;
-    /* border: solid 2px; */
-    align-self: self-end;
-    width: 100px;
-    height: auto;
-}
-
-.s-faq:hover{
-    transform: scale(1.004);
-}
-
-.faq-h1{
-    font-family: "League Spartan", sans-serif;
-    font-weight: bold;
-    font-size: 72px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 10px;
-}
-
-.faq-h3{
-    font-family: "League Spartan", sans-serif;
-    font-size: 24px;
-    margin-bottom: 12px;
-}
-
-.faq-p{
-    font-family: "League Spartan", sans-serif;
-    font-size: 22px;
+        a{
+            text-decoration: none;
+            font-weight: 500;
+        }
+    }
 }

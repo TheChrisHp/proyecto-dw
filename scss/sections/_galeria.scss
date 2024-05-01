@@ -20,10 +20,8 @@
     display: flex;
     justify-content: center;
 }
-
-
 .galeria-h1{
-    background-color: #2113e3d5;
+    background-color: $c_fondo-t;
     padding: 20px;
     color: $c_blanco;
     font-family: "League Spartan", sans-serif;
@@ -108,7 +106,7 @@
         font-size: 8.2rem;
         font-weight: 700;
         color: white;
-        background-color: #1300bcb8;
+        background-color: $c_fondo-t;
     }
 }
 
@@ -169,4 +167,3 @@
         grid-area: img15;
     }
 }
-
