@@ -213,12 +213,13 @@ body{
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: $c_blanco;
+    margin-bottom: 10px;
     // border: solid 2px;
 
     svg{
         position: absolute;
         left: 0;
-        bottom: 0;
+        bottom: -10px;
         width: 100%;
     }
 }
